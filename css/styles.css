@@ -722,6 +722,10 @@ img {
   margin-bottom: 8px;
 }
 
+.modal-field-comment {
+  margin-bottom: 16px;
+}
+
 .modal-wrap {
   position: relative;
 }
@@ -778,12 +782,16 @@ img {
   outline: transparent;
   resize: none;
   /* ??? */
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-text:focus {
   border-color: #4d5ae5;
+}
+
+.modal-field-privacy {
+  margin-bottom: 24px;
 }
 
 .check-text {
