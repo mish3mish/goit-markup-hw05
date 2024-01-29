@@ -799,7 +799,6 @@ img {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  display: flex;
   align-items: center;
   margin-bottom: 24px;
 }
@@ -808,7 +807,7 @@ img {
   color: #4d5ae5;
   text-decoration: underline;
   margin-left: 4px;
-  display: inline-flex;
+  /* display: inline-flex; */
 }
 
 .check-box-invisible {
